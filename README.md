@@ -1,28 +1,65 @@
-# Backend jak zrobić środowisko 
+# 👵👴 CareFinder ("wynajmij wnuczka")
 
-https://www.python.org/ftp/python/3.10.10/ - wersja pythona (amd64) no chyba, że macie coś innego niż 64 bitowy win \
-python -m venv venv \
-source venv/bin/activate  # macOS/Linux  \
-venv\Scripts\activate     # Windows \
-pip install -r requirements.txt \
+**[🇬🇧 English version](#-carefinder-wynajmij-wnuczka-1)**
 
-# Jak uruchomić nasz backend? 
-Musimy być w ścieżce z plikiem manage.py. \
-py manage.py runserver (jesli sie nie pomylilem)
+Platforma łącząca osoby starsze szukające opieki z osobami oferującymi pomoc – "wynajmij wnuczka". Nasz pierwszy projekt grupowy na studiach: Django z tyłu, HTML/CSS z przodu.
 
-# Jak testowac front? 
-Wtyczka live server w VisualStudioCode \
- 
-# Jak pracujemy na github 
-Front robi na branchu frontend \
-git checkout frontend \
-Trzbea zrobic branche
-Backend analogicznie \
+## 🛠️ Stack
 
-Na koniec bedziemy to mergowac z mainem \
+| Warstwa | Technologia |
+|---|---|
+| Backend | Python 3.10 + Django (MVT) |
+| Frontend | HTML + CSS (Live Server) |
+| Baza | SQLite |
 
-Na początek z frontu najważniejsze jest żeby wyglad był później będziemy się  z łączeniem, \
-zapytaniami do backendu \
+## 🚀 Uruchomienie lokalne
 
-cos jeszcze z pullami. \
+```bash
+# Backend
+cd backend
+python -m venv venv
+source venv/bin/activate   # Linux/macOS
+venv\Scripts\activate    # Windows
+pip install -r requirements.txt
+python manage.py runserver
+```
 
+Frontend uruchomisz dowolnym serwerem statycznym (np. rozszerzeniem Live Server w VS Code).
+
+## 🤝 Zespół
+
+Projekt grupowy (5 osób) – praca分支ami `backend` i `frontend`, merge do `main`.
+
+---
+
+# 👵👴 CareFinder ("rent a grandchild")
+
+[🇵🇱 Wersja polska](#-carefinder-wynajmij-wnuczka)
+
+A platform connecting seniors looking for care with people offering help – "rent a grandchild". Our first university team project: Django in the back, HTML/CSS in the front.
+
+## 🛠️ Stack
+
+| Layer | Technology |
+|---|---|
+| Backend | Python 3.10 + Django (MVT) |
+| Frontend | HTML + CSS (Live Server) |
+| Database | SQLite |
+
+## 🚀 Running locally
+
+```bash
+# Backend
+cd backend
+python -m venv venv
+source venv/bin/activate   # Linux/macOS
+venv\Scripts\activate    # Windows
+pip install -r requirements.txt
+python manage.py runserver
+```
+
+Serve the frontend with any static server (e.g. the Live Server extension in VS Code).
+
+## 🤝 Team
+
+Group project (5 people) – work on the `backend` and `frontend` branches, merged into `main`.
