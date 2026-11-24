@@ -2,3 +2,6 @@ backend/db.sqlite3
 backend/__pycache__/
 backend/nepotemconduce/__pycache__/
 venv/
+__pycache__/
+*.pyc
+.idea/
