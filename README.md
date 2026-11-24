@@ -28,7 +28,7 @@ Frontend uruchomisz dowolnym serwerem statycznym (np. rozszerzeniem Live Server 
 
 ## 🤝 Zespół
 
-Projekt grupowy (5 osób) – praca分支ami `backend` i `frontend`, merge do `main`.
+Projekt grupowy (5 osób) – praca na branchach `backend` i `frontend`, merge do `main`.
 
 ---
 
